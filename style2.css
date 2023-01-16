@@ -1,0 +1,200 @@
+input
+{
+width:100%;
+padding:10px;
+box-sizing:border-box;
+background:none;
+outline:none;
+resize:none;
+border:0;
+font-family:'Montserrat',sans-serif;
+transition:all .3s;
+border-bottom:2px solid #bebed2;
+}
+
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:20px;
+    color:#5a5a5a;
+}
+
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #070707;
+    background:0;
+    color:#000000;
+    cursor:pointer;
+    transition:all .3s;
+}
+
+button:hover{
+    background:#78788c;
+    color:#fff;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+ a:hover{
+   background-color: white;
+   padding: 5px;
+
+}
+
+.categories{
+    background-color: #78788c;
+    width: 280px;
+    height:1500px;
+}
+
+.active{
+    background: #252b02;
+    width: 320px;
+    margin-top: 100px;
+}
+
+.brand{
+    background: #212201c6;
+    width: 320px;
+    margin-top: 100px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.item{
+   color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    background: #be370a;
+   margin-left: 100px;
+   margin-right: 100px;
+    font-size: 40px;   
+    
+}
+
+.prod .buy-btn{
+  background:#ca196c;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border: #000;
+}
+
+.prod{
+    cursor: pointer;
+    border: 3px solid #d80567;
+    background-color: white;
+}
+
+.prod:hover .buy-btn{
+ transform: translateY(0px);
+ opacity: 1;
+ }
+
+ .prod:hover{
+     transform: scale(1.1);
+     box-shadow: 3px 6px 32px 2px rgba(0, 0, 0, 0.72);
+ }
+
+ .produ{
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .pg {
+     margin-top: 0px;
+     width: 50px;
+     margin-bottom: 5px;
+ }
+
+ .pagination a{
+    font-weight: bold;
+ }
+
+ .pagination{
+     margin-left: 750px;
+ }
+
+ .page-item a{
+    border: 1px solid gray;
+ }
+
+ .pg1{
+     margin-top: 0px;
+     width: 100px;
+     text-align: center;
+ }
+
+ .inp{
+     width: 50px;
+     height: 40px;
+     padding-left: 10px;
+     font-size: 16px;
+     margin-right: 10px;
+     border-bottom: 0px;
+     border: 1px solid black;
+     font-size: 20px;
+    }
+
+    .b-button{
+        color: black;
+        opacity: 1;
+        transition: 0.3s all;
+        font-weight: bold;
+        margin-right: 440px;
+    }
+
+    .pr{
+        border-bottom: 0px;
+    }
+
+    h3{
+        color: green;
+        font-weight: bold;
+    }
+
+    .pr{
+        color: green;
+    }
+
+    h4{
+        color: brown;
+        font-weight: bold;
+    }
+
+    .sp{
+        color: brown;
+    }
+
+    .it{
+        background: url(/images/pngtree-food-western-food-simple-poster-background.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+     }
+
+    .img-fluid{
+        margin-top: 220px;
+        margin-bottom: 200px;
+        margin-left: 100px;
+    }
+ 
